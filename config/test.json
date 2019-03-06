@@ -1,0 +1,5 @@
+{
+  "xyzApi": {
+    "host": "http://xyz/api/v1"
+  }
+}

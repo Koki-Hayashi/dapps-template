@@ -1,0 +1,12 @@
+version: '3.2'
+services:
+  app:
+    build:
+      context: ../../
+      dockerfile: ./docker/development/Dockerfile
+    command: yarn start
+    restart: always
+    volumes:
+      - ../..:/dapps-template
+    ports:
+      - '3000:3000'

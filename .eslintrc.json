@@ -1,0 +1,18 @@
+{
+    "extends": ["airbnb", "prettier", "plugin:flowtype/recommended"],
+    "parserOptions": {
+        "ecmaVersion": 7,
+        "sourceType": "module",
+        "ecmaFeatures": { "jsx": true, "modules": true, "experimentalObjectRestSpread": true }
+    },
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "plugins": ["flowtype"],
+    "rules": {
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "flowtype/no-types-missing-file-annotation": 1
+    }
+}

@@ -1,0 +1,13 @@
+[ignore]
+.*/node_modules/immutable/dist/immutable.js.flow
+.*/node_modules/oboe/test/json/incomplete.json
+[include]
+
+[libs]
+
+[lints]
+deprecated-call-syntax=off
+[options]
+esproposal.decorators=ignore
+[strict]
+

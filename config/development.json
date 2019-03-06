@@ -1,0 +1,8 @@
+{
+  "api": {
+    "host": "http://localhost:3000"
+  },
+  "xyzApi": {
+    "host": "http://xyz/api/v1"
+  }
+}

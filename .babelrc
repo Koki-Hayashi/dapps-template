@@ -1,0 +1,4 @@
+{
+  "presets": ["es2015", "flow", "react", "stage-2"],
+  "plugins": ["transform-decorators-legacy", "transform-class-properties", "transform-export-extensions"]
+}
